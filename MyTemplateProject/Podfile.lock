@@ -1,0 +1,118 @@
+PODS:
+  - ActionSheetPicker-3.0 (2.2.0)
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - AMapFoundation (1.4.0)
+  - AMapLocation (2.4.0):
+    - AMapFoundation (~> 1.4)
+  - Aspects (1.4.1)
+  - BlocksKit (2.2.5):
+    - BlocksKit/All (= 2.2.5)
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - CocoaLumberjack (3.2.0):
+    - CocoaLumberjack/Default (= 3.2.0)
+    - CocoaLumberjack/Extensions (= 3.2.0)
+  - CocoaLumberjack/Default (3.2.0)
+  - CocoaLumberjack/Extensions (3.2.0):
+    - CocoaLumberjack/Default
+  - CYLTabBarController (1.10.0)
+  - FXBlurView (1.6.4)
+  - IQKeyboardManager (3.0.0)
+  - Masonry (1.0.2)
+  - MBProgressHUD (1.0.0)
+  - MJExtension (3.0.13)
+  - MJRefresh (3.1.12)
+  - RegexKitLite (4.0)
+  - SDCycleScrollView (1.66):
+    - SDWebImage (~> 4.0.0)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - SVProgressHUD (2.1.2)
+  - WebViewJavascriptBridge (5.2.0)
+  - XAspect (1.0.5):
+    - XAspect/Core (= 1.0.5)
+    - XAspect/Macros (= 1.0.5)
+  - XAspect/Core (1.0.5):
+    - XAspect/Macros
+  - XAspect/Macros (1.0.5)
+  - YYCategories (1.0.4):
+    - YYCategories/no-arc (= 1.0.4)
+  - YYCategories/no-arc (1.0.4)
+  - YYText (1.0.7)
+
+DEPENDENCIES:
+  - ActionSheetPicker-3.0
+  - AFNetworking (~> 3.1.0)
+  - AMapLocation
+  - Aspects
+  - BlocksKit
+  - CocoaLumberjack
+  - CYLTabBarController
+  - FXBlurView
+  - IQKeyboardManager (= 3.0.0)
+  - Masonry
+  - MBProgressHUD
+  - MJExtension
+  - MJRefresh
+  - RegexKitLite (= 4.0)
+  - SDCycleScrollView
+  - SDWebImage
+  - SVProgressHUD
+  - WebViewJavascriptBridge (~> 5.0)
+  - XAspect
+  - YYCategories
+  - YYText
+
+SPEC CHECKSUMS:
+  ActionSheetPicker-3.0: d11a4c12c6aaf704b8a3f56d179198c99f3e41e6
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  AMapFoundation: 458974f46a39df8407fd818ab83d2630d494c726
+  AMapLocation: 47b62b5381a66e4d0c2931b70ffde72682427896
+  Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
+  BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  CocoaLumberjack: 9b4aed7073d242f29cc2f62068d995faf67f703a
+  CYLTabBarController: 2de9a4c26f50d33574398becf8e7b0aaed794240
+  FXBlurView: db786c2561cb49a09ae98407f52460096ab8a44f
+  IQKeyboardManager: eef285f5a034e7476e0e569ba3daa9ea839ebccf
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  RegexKitLite: c0e4c12e6e7de0769f3a3ed679f0f61604170661
+  SDCycleScrollView: e3ade90e9b3159bec04330b208fbfd81c3f3b671
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  WebViewJavascriptBridge: a00b2d61252aec5207e3263d46fd0fd3cfaf7895
+  XAspect: db50bf487f92dbb8557a7a5365556966c8493af8
+  YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
+
+PODFILE CHECKSUM: 122ad85906ebe618630e6c5674098f39b016cffb
+
+COCOAPODS: 1.2.1

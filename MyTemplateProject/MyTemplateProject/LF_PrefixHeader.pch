@@ -1,0 +1,80 @@
+//
+//  LF_PrefixHeader.pch
+//  MyTemplateProject
+//
+//  Created by Pro on 17/5/16.
+//  Copyright © 2017年 Pro_liufeng. All rights reserved.
+//
+
+#ifndef LF_PrefixHeader_pch
+#define LF_PrefixHeader_pch
+
+//引入Masonry两个宏 便于写布局代码
+#define MAS_SHORTHAND
+#define MAS_SHORTHAND_GLOBALS
+
+
+/****************************基础框架*********************************************/
+
+#import <DDLog.h>
+#import <CocoaLumberjack.h>
+#import <AFNetworking/AFNetworking.h>
+#import <MJRefresh/MJRefresh.h>
+#import <MJExtension/MJExtension.h>
+#import <BlocksKit/BlocksKit+UIKit.h>
+#import <Masonry/Masonry.h>
+#import <Aspects/Aspects.h>
+#import <MBProgressHUD/MBProgressHUD.h>
+#import <UIImageView+WebCache.h>
+#import <UIButton+WebCache.h>
+#import <SVProgressHUD.h>
+#import <YYCategories/YYCategories.h>
+#import <YYText/YYText.h>
+
+
+
+/****************************配置文件*********************************************/
+// config
+
+#import "AppConfig.h"
+#import "Macros.h"
+#import "APIAdress.h"
+//#import "ThirdMacros.h"
+#import "MBProgressHUD+MP.h"
+#import "HJLog.h"
+#import "LFUtil.h"
+
+//#import "LHUtils.h"
+//#import "HJProtocol.h"
+
+
+//#import <JSONModel/JSONModel.h>
+//#import <ReactiveCocoa/ReactiveCocoa.h>
+//#import <ReactiveCocoa/RACEXTScope.h>
+//#import "UIImageView+WebCache.h"
+//#import "MBProgressHUD.h"
+//#import "MBProgressHUD+MP.h"
+//#import "MWPhotoBrowser.h"
+//#import "KeyboardManager.h"
+
+
+//#import "Macros.h"
+//#import "MPEnumerateHeader.h"
+//#import "MBTargetConfigContants.h"
+//#import "MPTargetConfigMacros.h"
+//#import "ThirdMacros.h"
+//#import "MBConstants.h"
+//#import "NotificationContants.h"
+
+//#import "MJRefresh.h"
+//#import "GVUserDefaults+BBProperties.h"
+//#import "MPRequstFailedHelper.h"
+//#import "MPUmengHelper.h"
+//#import "BaseRequestService.h"
+
+
+
+
+
+
+#endif /* LF_PrefixHeader_pch */
